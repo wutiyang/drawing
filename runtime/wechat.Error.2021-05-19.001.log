@@ -1,0 +1,4 @@
+2021/05/18 06:56:27.790 [E]   result info error:%!(EXTRA *json.UnmarshalTypeError=json: cannot unmarshal string into Go struct field ResultWechat.type of type float64)
+2021/05/18 07:02:55.815 [E]   result info error:%!(EXTRA *json.UnmarshalTypeError=json: cannot unmarshal string into Go struct field ResultWechat.type of type float64)
+2021/05/18 07:03:04.234 [E]   result info error:%!(EXTRA *json.UnmarshalTypeError=json: cannot unmarshal string into Go struct field ResultWechat.type of type float64)
+2021/05/18 07:05:16.883 [E]   result info error:%!(EXTRA *json.UnmarshalTypeError=json: cannot unmarshal string into Go struct field ResultWechat.type of type float64)

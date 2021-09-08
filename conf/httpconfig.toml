@@ -1,0 +1,42 @@
+Name		= "draw"
+Enabled     = true
+#每次redis中取的任务数
+TaskListNum = 200
+TaskNum		= 30
+OpenWeb = true
+LogPath		= "runtime/"
+#主进程数 1毫秒
+Concurrent =  100
+PicPath = "upload/"
+
+[Redis]
+#任务队列host、端口配置、线程池配置、超时（秒）
+#Host 		= "192.168.8.3"
+Host 		= "10.0.11.11"
+Port 		= "6379"
+Db 	 		= "0"
+#Password 	= "X01wRN6eZigiNX5_"
+Password 	= "G1npH0OuKE$REcId"
+Pre 			= "A06"
+
+
+
+[Httpinfo]
+Ctime 		= 10
+Rwtime 		= 5
+NetCount 	= 0
+
+
+[Url]
+WxUrl="https://api.weixin.qq.com/cgi-bin/media/upload?access_token=%s&type=image"
+#TokenUrl = "http://token2.cpd.test.scrmtech.com/Api/Token/gettoken?appid=%s"
+TokenUrl = "http://token-cloud.ma.scrmtech.com/Api/Token/gettoken?appid=%s"
+[Wx]
+
+PicUrlPre = "http://pinqu.qiniudn.com/"
+
+[Qiniu]
+ACCESS_KEY = "wafUz6ObOHosIQwGlAimozL5kd4v9h5c8N4J6kln"
+SECRET_KEY = "DHsN1TCT1Zf-hUioznosJy7eGKCo2yQKgWAdffs7"
+BUCKET = "test"
+QINIUHOST = "http://jing-test.scrmtech.com/"

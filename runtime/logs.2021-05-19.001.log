@@ -1,0 +1,153 @@
+2021/05/18 00:39:06.909 [D] [server.go:2774]  | 167.248.133.38|[97;42m 200 [0m|     66.021µs|   match|[97;44m GET     [0m /     r:/
+2021/05/18 06:00:57.914 [C] [panic.go:522]  the request url is  /tasks/drawing/draw
+2021/05/18 06:00:57.914 [C] [panic.go:522]  Handler crashed with error open upload/1shGxwvJmlWrWZersciEYwUi0Ms: no such file or directory
+2021/05/18 06:00:57.914 [C] [panic.go:522]  /usr/local/go/src/runtime/panic.go:522
+2021/05/18 06:00:57.914 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:154
+2021/05/18 06:00:57.914 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:201
+2021/05/18 06:00:57.914 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:402
+2021/05/18 06:00:57.914 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:449
+2021/05/18 06:00:57.914 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:472
+2021/05/18 06:00:57.914 [C] [panic.go:522]  /app/go-drawing/controllers/tasks.go:38
+2021/05/18 06:00:57.914 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:447
+2021/05/18 06:00:57.914 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:308
+2021/05/18 06:00:57.914 [C] [panic.go:522]  /go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2021/05/18 06:00:57.914 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:2774
+2021/05/18 06:00:57.915 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:1878
+2021/05/18 06:00:57.915 [C] [panic.go:522]  /usr/local/go/src/runtime/asm_amd64.s:1337
+2021/05/18 06:00:57.915 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/05/18 06:05:14.297 [C] [panic.go:522]  the request url is  /tasks/drawing/draw
+2021/05/18 06:05:14.297 [C] [panic.go:522]  Handler crashed with error open upload/1shHUFPe968wJVIhuWBo5AfkRWM: no such file or directory
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /usr/local/go/src/runtime/panic.go:522
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:154
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:201
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:402
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:449
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:472
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /app/go-drawing/controllers/tasks.go:38
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:447
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:308
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:2774
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:1878
+2021/05/18 06:05:14.297 [C] [panic.go:522]  /usr/local/go/src/runtime/asm_amd64.s:1337
+2021/05/18 06:05:14.298 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/05/18 06:06:39.496 [C] [panic.go:522]  the request url is  /tasks/drawing/draw
+2021/05/18 06:06:39.496 [C] [panic.go:522]  Handler crashed with error open upload/1shHeyTE9p8HBupIZeGGNJL3PVd: no such file or directory
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /usr/local/go/src/runtime/panic.go:522
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:154
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:201
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:402
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:449
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:472
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /app/go-drawing/controllers/tasks.go:38
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:447
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:308
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:2774
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:1878
+2021/05/18 06:06:39.496 [C] [panic.go:522]  /usr/local/go/src/runtime/asm_amd64.s:1337
+2021/05/18 06:06:39.496 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/05/18 06:07:14.293 [C] [panic.go:522]  the request url is  /tasks/drawing/draw
+2021/05/18 06:07:14.293 [C] [panic.go:522]  Handler crashed with error open upload/1shHjGa2pfI4zf818mkVfZiRQvO: no such file or directory
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /usr/local/go/src/runtime/panic.go:522
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:154
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:201
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:402
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:449
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:472
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /app/go-drawing/controllers/tasks.go:38
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:447
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:308
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:2774
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:1878
+2021/05/18 06:07:14.293 [C] [panic.go:522]  /usr/local/go/src/runtime/asm_amd64.s:1337
+2021/05/18 06:07:14.293 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/05/18 06:09:52.734 [C] [panic.go:522]  the request url is  /tasks/drawing/draw
+2021/05/18 06:09:52.734 [C] [panic.go:522]  Handler crashed with error open upload/1shI36n1dvo8gtVrJxwLmLkGuB1: no such file or directory
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /usr/local/go/src/runtime/panic.go:522
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:154
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:201
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:402
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:449
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:472
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /app/go-drawing/controllers/tasks.go:38
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:447
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:308
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:2774
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:1878
+2021/05/18 06:09:52.734 [C] [panic.go:522]  /usr/local/go/src/runtime/asm_amd64.s:1337
+2021/05/18 06:09:52.734 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/05/18 06:10:02.691 [C] [panic.go:522]  the request url is  /tasks/drawing/draw
+2021/05/18 06:10:02.691 [C] [panic.go:522]  Handler crashed with error open upload/1shI4MsB9hdFpUhvAkOk8eudOQu: no such file or directory
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /usr/local/go/src/runtime/panic.go:522
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:154
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:201
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:402
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:449
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:472
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /app/go-drawing/controllers/tasks.go:38
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:447
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:308
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:2774
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:1878
+2021/05/18 06:10:02.691 [C] [panic.go:522]  /usr/local/go/src/runtime/asm_amd64.s:1337
+2021/05/18 06:10:02.692 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/05/18 06:17:11.235 [C] [panic.go:522]  the request url is  /tasks/drawing/draw
+2021/05/18 06:17:11.235 [C] [panic.go:522]  Handler crashed with error open upload/1shIwJvPkgXXgqbCAOcTliHOYo7: no such file or directory
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /usr/local/go/src/runtime/panic.go:522
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:154
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:201
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:402
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:449
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:472
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /app/go-drawing/controllers/tasks.go:38
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:447
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:308
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:2774
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:1878
+2021/05/18 06:17:11.235 [C] [panic.go:522]  /usr/local/go/src/runtime/asm_amd64.s:1337
+2021/05/18 06:17:11.235 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/05/18 06:22:09.512 [C] [panic.go:522]  the request url is  /tasks/drawing/draw
+2021/05/18 06:22:09.512 [C] [panic.go:522]  Handler crashed with error open upload/1shJXpxd3Zd0QNQ4ty5D5oBkPIX: no such file or directory
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /usr/local/go/src/runtime/panic.go:522
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:154
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:201
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:402
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:449
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:472
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /app/go-drawing/controllers/tasks.go:38
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:447
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:308
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:2774
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:1878
+2021/05/18 06:22:09.512 [C] [panic.go:522]  /usr/local/go/src/runtime/asm_amd64.s:1337
+2021/05/18 06:22:09.512 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/05/18 06:24:06.098 [C] [panic.go:522]  the request url is  /tasks/drawing/draw
+2021/05/18 06:24:06.098 [C] [panic.go:522]  Handler crashed with error open upload/1shJmQXU0mv3Df02RgeoTy3KzFb: no such file or directory
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /usr/local/go/src/runtime/panic.go:522
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:154
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:201
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:402
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:449
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /app/go-drawing/draw/drawing.go:472
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /app/go-drawing/controllers/tasks.go:38
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:447
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /usr/local/go/src/reflect/value.go:308
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /go/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:897
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:2774
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /usr/local/go/src/net/http/server.go:1878
+2021/05/18 06:24:06.098 [C] [panic.go:522]  /usr/local/go/src/runtime/asm_amd64.s:1337
+2021/05/18 06:24:06.098 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/05/18 06:51:24.269 [I] [asm_amd64.s:1337]  http server Running on http://:8007
+2021/05/18 06:52:51.692 [D] [server.go:2774]  |     172.17.0.1|[97;42m 200 [0m| 4.501246769s|   match|[97;46m POST    [0m /tasks/drawing/draw   r:/tasks/drawing/draw
+2021/05/18 06:53:35.234 [D] [server.go:2774]  |     172.17.0.1|[97;42m 200 [0m| 3.563731976s|   match|[97;46m POST    [0m /tasks/drawing/draw   r:/tasks/drawing/draw
+2021/05/18 06:56:02.924 [I] [asm_amd64.s:1337]  http server Running on http://:8007
+2021/05/18 06:56:27.790 [D] [server.go:2774]  |     172.17.0.1|[97;42m 200 [0m| 1.730645685s|   match|[97;46m POST    [0m /tasks/drawing/draw   r:/tasks/drawing/draw
+2021/05/18 07:02:55.816 [D] [server.go:2774]  |     172.17.0.1|[97;42m 200 [0m| 1.388208998s|   match|[97;46m POST    [0m /tasks/drawing/draw   r:/tasks/drawing/draw
+2021/05/18 07:03:04.234 [D] [server.go:2774]  |     172.17.0.1|[97;42m 200 [0m| 749.764009ms|   match|[97;46m POST    [0m /tasks/drawing/draw   r:/tasks/drawing/draw
+2021/05/18 07:05:16.883 [D] [server.go:2774]  |     172.17.0.1|[97;42m 200 [0m| 1.142973761s|   match|[97;46m POST    [0m /tasks/drawing/draw   r:/tasks/drawing/draw
